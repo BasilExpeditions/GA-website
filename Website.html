@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+<link href="/normalize.css" rel="stylesheet">
+
+  <title>Bastien Durand</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center fixed;
+      background-size: cover;
+      background-position: center;
+      font-family: helvetica;
+      
+    }
+    
+    .subHeading {
+      font-size: 25px;
+      }
+    
+    a {
+      color: black;
+      font-weight: 700;
+      text-decoration: none;
+      }
+  
+    ul {
+      padding: 10px;
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    .profile-pic {
+      margin: 30px 0 0 0;
+      border-radius: 50%
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      border-radius: 10px;
+      transition: 0.3s;
+      margin: 0 auto;
+      padding: 3% 3%;
+      font-size: 130%;
+      display: inline-block;  
+      max-width: 800px;
+    }
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+  border-radius: 5px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+        
+    .footer {
+      padding: 30px 0;
+      }
+      
+      @media (max-width: 900px) {
+      h4 {
+        font-size: 90%;
+        }
+      p {
+        font-size: 90%
+        }
+      .card {
+        display: inline-block;
+        margin: 5% 20% 
+        }
+      .subHeading {
+        font-size: 20px;
+        }
+    }
+    
+    /* I noticed when zooming out of the webpage that project 2's dimensions change, i haven't been able to figure out why its occuring, if someone from GA when reviewing this could give me some tips on why or what i'm not seeing thats causing the issue :( Thanks a bunch! - Bastien */
+    
+  </style>
+</head>
+
+<body>
+
+<header>
+    <img class="profile-pic" src="https://i.imgur.com/9ydCtEL.png">
+    <ul>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">About me</a></li>
+    </ul>
+    <div class="subHeading">
+    <p>Hi! I'm <b>Bastien</b>, A Sydney Based Strength & Conditioning Coach. </p>
+  <p> Software Engineer Student at General Assembly</p>
+  </div>
+  </header>
+  
+
+<section>
+      
+<div class="card"><a href="#">
+  <img src="https://mk0sgwebpartner1j67n.kinstacdn.com/wp-content/uploads/2019/04/woocommerce-wholesale-storm-creek-983x553.jpg" alt="Project 1 Thumbnail" style="width:70%">
+  <div class="container">
+    <h4>Project 1</h4>
+    <p>Description</p>
+  </div>
+</div>
+<div class="card"><a href="#">
+  <img src="https://i.imgur.com/RTks0tC.png" alt="Project 2 Thumbnail" style="width:70%">
+  <div class="container">
+    <h4>Project 2</h4>
+    <p>Description</p>
+  </div>
+</div>
+<div class="card"><a href="#">
+  <img src="https://cdn.frooition.com/000000/img/2018/website-collage.png" alt="Project 3 Thumbnail" style="width:70%">
+  <div class="container">
+    <h4>Project 3</h4>
+    <p>Description</p>
+  </div>
+</div>
+
+</section>
+  
+<section>
+  
+  <footer class="footer">&#169 Bastien Durand. All rights reserved</footer>
+  
+</section>
+
+<script>
+
+</script>
+  
+</body>
